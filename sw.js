@@ -91,6 +91,18 @@ workbox.routing.registerRoute(
 )
 
 workbox.routing.registerRoute(
+  new RegExp("https://maps.google.com"),
+  workbox.strategies.staleWhileRevalidate({
+    cacheName: "maps-cache",
+    plugins: [
+      new workbox.cacheableResponse.Plugin({
+        statuses: [0, 200]
+      })
+    ]
+  })
+)
+
+workbox.routing.registerRoute(
   new RegExp("manifest.webmanifest"),
   workbox.strategies.cacheFirst({
     cacheName: "manifest"
