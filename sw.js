@@ -7,10 +7,6 @@ workbox.core.setCacheNameDetails({ prefix: 'ancod-cache-v1' })
 workbox.precaching.suppressWarnings()
 workbox.precaching.precacheAndRoute([
   {
-    "url": "404.html",
-    "revision": "4b3b455749fd014cef972fdf75b10f69"
-  },
-  {
     "url": "AirbnbCereal-Bold.33d3a700.ttf",
     "revision": "c94c29feb80b02db176028d16fc634d2"
   },
@@ -49,10 +45,6 @@ workbox.precaching.precacheAndRoute([
   {
     "url": "icon-96x96.3f333f57.png",
     "revision": "7dbb3f9decb769ef16ebe010e3d558dd"
-  },
-  {
-    "url": "icon.png",
-    "revision": "de3235068c9c57f793d18150947fc47f"
   },
   {
     "url": "index.html",
