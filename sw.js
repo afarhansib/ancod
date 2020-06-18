@@ -56,7 +56,7 @@ workbox.precaching.precacheAndRoute([
   },
   {
     "url": "index.html",
-    "revision": "0930ac9a1873d74889f7bdbece616ceb"
+    "revision": "21c4547d1409f0292234edd21e8cbf06"
   },
   {
     "url": "MaterialIcons-Regular.7f257eac.ttf",
@@ -72,7 +72,7 @@ workbox.precaching.precacheAndRoute([
   },
   {
     "url": "/",
-    "revision": "29985b372c37c9f2f04c417957f107f5"
+    "revision": "463cba073a5b90007692a225c496d655"
   }
 ])
 
