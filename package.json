@@ -1,0 +1,44 @@
+{
+  "name": "ancod",
+  "version": "0.0.1",
+  "description": "Another covid app",
+  "main": "index.js",
+  "scripts": {
+    "start": "parcel index.html",
+    "predeploy": "rm -rf dist && parcel build src/index.html --public-url /ancod",
+    "deploy": "gh-pages -d dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/afarhansib/ancod.git"
+  },
+  "keywords": [
+    "covid19",
+    "spa",
+    "pwa"
+  ],
+  "author": "Ahmad Farhan Sibghotalloh",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/afarhansib/ancod/issues"
+  },
+  "homepage": "https://github.com/afarhansib/ancod#readme",
+  "devDependencies": {
+    "babel-plugin-transform-runtime": "^6.23.0",
+    "cssnano": "^4.1.10",
+    "parcel-bundler": "^1.12.4",
+    "parcel-plugin-static-files-copy": "^2.4.3",
+    "parcel-plugin-sw-cache": "^0.3.1",
+    "web-push": "^3.4.4"
+  },
+  "cache": {
+    "strategy": "inject",
+    "swSrc": "./src/swTemplate.js",
+    "swDest": "sw.js"
+  },
+  "dependencies": {
+    "firebase": "^7.15.1",
+    "idb": "^5.0.4",
+    "materialize-css": "^1.0.0"
+  }
+}
