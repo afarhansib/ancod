@@ -7,6 +7,10 @@ workbox.core.setCacheNameDetails({ prefix: 'ancod-cache-v1' })
 workbox.precaching.suppressWarnings()
 workbox.precaching.precacheAndRoute([
   {
+    "url": "404.html",
+    "revision": "4b3b455749fd014cef972fdf75b10f69"
+  },
+  {
     "url": "AirbnbCereal-Bold.33d3a700.ttf",
     "revision": "c94c29feb80b02db176028d16fc634d2"
   },
@@ -47,24 +51,28 @@ workbox.precaching.precacheAndRoute([
     "revision": "7dbb3f9decb769ef16ebe010e3d558dd"
   },
   {
+    "url": "icon.png",
+    "revision": "de3235068c9c57f793d18150947fc47f"
+  },
+  {
     "url": "index.html",
-    "revision": "e4b98a51e6b1bcbb04cc119fed70beec"
+    "revision": "8139c7d15f8eff70ec795261b234cbd0"
   },
   {
     "url": "MaterialIcons-Regular.7f257eac.ttf",
     "revision": "a37b0c01c0baf1888ca812cc0508f6e2"
   },
   {
-    "url": "src.7f09d9ea.js",
-    "revision": "c06c496f9fca8d039ffea99c8fa437ec"
-  },
-  {
     "url": "src.8de52465.css",
     "revision": "c27e84773ffb5d192fea070b4e5e192b"
   },
   {
+    "url": "src.f742b5b0.js",
+    "revision": "7cf1037b363b732590afe0b190771506"
+  },
+  {
     "url": "/",
-    "revision": "5d57c60f7692f2729cf90963c1b45f06"
+    "revision": "4a1770a2a03d4ba5dddce8e0a6b5284f"
   }
 ])
 
