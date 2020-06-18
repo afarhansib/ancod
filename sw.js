@@ -47,24 +47,28 @@ workbox.precaching.precacheAndRoute([
     "revision": "7dbb3f9decb769ef16ebe010e3d558dd"
   },
   {
+    "url": "icon.png",
+    "revision": "de3235068c9c57f793d18150947fc47f"
+  },
+  {
     "url": "index.html",
-    "revision": "1ba1d45e43e1b7b092babcdbece73cc9"
+    "revision": "ba9c43af3b963e76b49afc8beb40c27b"
   },
   {
     "url": "MaterialIcons-Regular.7f257eac.ttf",
     "revision": "a37b0c01c0baf1888ca812cc0508f6e2"
   },
   {
-    "url": "src.4049cff9.js",
-    "revision": "321f4c66b5dceaae7756962eed34e684"
-  },
-  {
     "url": "src.8de52465.css",
     "revision": "c27e84773ffb5d192fea070b4e5e192b"
   },
   {
+    "url": "src.cf564f20.js",
+    "revision": "76161e0dacc5bef9f35bc49baabe81a8"
+  },
+  {
     "url": "/",
-    "revision": "1e15eeae7380093561dc9d52ec198f23"
+    "revision": "d5d39330e0f4dd6541475c44c1d27bdc"
   }
 ])
 
