@@ -90,6 +90,13 @@ workbox.routing.registerRoute(
   })
 )
 
+workbox.routing.registerRoute(
+  new RegExp("manifest.webmanifest"),
+  workbox.strategies.cacheFirst({
+    cacheName: "manifest"
+  })
+)
+
 self.addEventListener('push', function(event) {
   let title = "Update Covid-19 Terbaru - Ancod";
   let body;
